@@ -4,6 +4,15 @@
     background-color: #FF914C;
 }
 
+/* botao de cadastro*/
+#tam-btn2 {
+    width: 46%;
+	margin-left: 12px;
+	margin-right: 2px;
+    background-color: #FF914C;
+	
+}
+
 a:link { 
     text-decoration:none; 
 } 

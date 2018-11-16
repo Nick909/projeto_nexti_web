@@ -1,30 +1,57 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Cadastro Conta</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen"  href="_css/materialize.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen"  href="_css/materialize.css"/>
+	<link rel="stylesheet" type="text/css" href="_css/estilo.css" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   
 </head>
-<body class="blue">
-
+<body id="-DBE0E3">
+<script type="text/javascript" src="js/materialize.min.js"></script>
     <div class="row">
-        <div class="col s4"></div>
-        <form class="col s4 white">
-            <div class="row">
-            <div class="input-field col s12">    
-                <b>Cadastro</b><br><br>
-                <input id="nome" type="text" class="validate" placeholder="nome" required><br><br>
-                <input id="celular" type="tel" class="validate" placeholder="celular" required><br><br>
-                <input id="email" type="email" class="validate" placeholder="Email" required><br><br>  
-                <input id="pass" type="password" class="validate" placeholder="Senha"required><br><br> 
-                <input id="Rpass" type="password" placeholder="Repetir Senha" class="validate" required><br><br>
-                <button type="submit" class="waves-effect waves-light btn" href="">Cadastrar</button>
+        <div class="col s12 m6 l5 offset-m4 offset-l4">
+         <div class="card" style="margin-top: 30px">
+		
+		     <div class="card-content">
+				<h3 style="text-align: center;">Cadastro</h3>
+                 <div class="input-field">
+				<div class="row">
+				<div class="col s6">
+				 <i class="small material-icons">perm_identity</i>
+				 <input id="nome" type="text" class="validate" placeholder="nome" required><br><br>
+				 </div>
+				 <div class="col s6">
+				 
+				 <input id="Sobrenome" type="text" class="validate fixe" placeholder="Sobrenome" style="margin-top:33px;" required><br><br>
+				 </div>
+				 </div>
+				 
+				 <div class="row">
+					<div class="col s12">
+				 <i class="small material-icons">phone</i>
+				 <input id="telefone" type="tel" class="validate" placeholder="telefone" required><br><br>
+				    </div>
+				
+				 <i class="small material-icons">email</i>
+                 <input id="email" type="email" class="validate" placeholder="email" required><br><br>
+                 <i class="small material-icons">lock</i>
+				 <input id="pass" type="password" class="validate" placeholder="pass" required><br><br>
+				 <i class="small material-icons">lock</i>
+				 <input id="Repeatpass" type="password" class="validate" placeholder="Repeatpass" required><br><br>
+				  
+                <button type="submit" class="waves-effect waves-light btn" href="exibir_contas.html" id="tam-btn2">Cadastrar</button>
+				<button type="submit" class="waves-effect waves-light btn" href="exibir_contas.html" id="tam-btn2">Cancelar</button>
+				</div>
             </div>
             </div>
         </form>
     </div>
+</div>
+</div>
+
 </body>
 </html>
