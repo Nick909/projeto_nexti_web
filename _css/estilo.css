@@ -1,0 +1,37 @@
+/* botao de login*/
+#tam-btn {
+    width: 100%;
+    background-color: #FF914C;
+}
+
+a:link { 
+    text-decoration:none; 
+} 
+#slide-out{
+    border-left-width: 30px
+}
+/* icones do login */
+#inline-icon{
+    margin-top: 10px;
+    width: auto;
+}
+
+/* linha de login*/
+#line-log {
+    padding-left: 0px;
+}
+
+img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+
+/*cores da pag*/
+.-DBE0E3 {background-color: #DBE0E3;}
+.-AEA594 {background-color: #AEA594;}
+.-FF914C {background-color: #FF914C;}
+.-A0874E {background-color: #A0874E;}
+.-B74F20 {background-color: #B74F20;}
