@@ -32,7 +32,7 @@ function cadastrar(event) {
         email.value = '';
         password.value = '';
 
-        aler('Bem vindo');
+       
         return true;
     }
 }

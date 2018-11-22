@@ -1,15 +1,15 @@
-document.getElementById("btn-login1").addEventListener("click", login);
+document.getElementById("login").addEventListener("click", login);
 
 function login(event){
     event.preventDefault();
-    var email = document.getElementById("inputEmail").value;
-    var senha = document.getElementById("inputSenha").value;
+    var email = document.getElementById("email").value;
+    var senha = document.getElementById("pass").value;
 
-    var user = JSON.parse(localStorage.getItem(senha));
+    var user = JSON.parse(localStorage.getItem(email));
 
     if(user){
         if (email == user.email && senha == user.password) {
-            window.location.replace("./p_cadastro.html")
+            window.location.replace("./exibir_contas.html")
         } else {
             alert("Email ou senha inválidos!")
         }    
