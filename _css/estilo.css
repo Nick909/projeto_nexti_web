@@ -1,18 +1,14 @@
 /* botao de login*/
-#tam-btn {
+.tam-btn {
     width: 100%;
     background-color: #FF914C;
 }
-
-/* botao de cadastro*/
-#tam-btn2 {
-    width: 46%;
-	margin-left: 12px;
-	margin-right: 2px;
-    background-color: #FF914C;
-	
+/* centralizando texto de cabeçalho*/
+.titulo{
+    text-align: center;
+    padding-top: 20px; 
+    margin-bottom: -10px;
 }
-
 a:link { 
     text-decoration:none; 
 } 
@@ -20,14 +16,18 @@ a:link {
     border-left-width: 30px
 }
 /* icones do login */
-#inline-icon{
-    margin-top: 10px;
+.inline-icon{
+    margin-top: 11px;
     width: auto;
+    
 }
 
+
+
 /* linha de login*/
-#line-log {
-    padding-left: 0px;
+.line-log {
+    padding-right: 0px;
+    
 }
 
 img {
