@@ -1,16 +1,13 @@
+//SideNav
 $(document).ready(function(){
     $('.sidenav').sidenav();
 });
 
+//Dropdown
+$('.dropdown-trigger').dropdown();
 
-//codigo de cadastro
-
-
-function repetiSenha() {
-    var pass = document.getElementById('pass').value;
-    var repatpass = document.getElementById('repeatpass').value;
-
-    if(pass != repatpass){
-        alert('senhas diferentes');
-    }
-}
+// Collapsible
+$(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
+        

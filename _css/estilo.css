@@ -37,10 +37,13 @@ img {
     height: auto;
 }
 
+  
+
 
 /*cores da pag*/
-.-DBE0E3 {background-color: #DBE0E3;}
-.-AEA594 {background-color: #AEA594;}
-.-FF914C {background-color: #FF914C;}
-.-A0874E {background-color: #A0874E;}
-.-B74F20 {background-color: #B74F20;}
+
+.cor1 {background-color: #2E2E2E !important}
+.cor2 {background-color: #808080 !important}
+.C2C2C2 {background-color: #C2C2C2 !important}
+.DDDDDD {background-color: #DDDDDD !important}
+.FEFEFE {background-color: #FEFEFE !important}

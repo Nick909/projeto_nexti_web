@@ -1,20 +1,21 @@
 ﻿<!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Minhas Contas</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="_css/materialize.min.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="_css/estilo.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="_css/materialize.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="_css/estilo.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
-<body style="margin-top:0%">
+<body style="margin-top:0%" class="FEFEFE">
     <!--style="transform: translateX(0px)"-->
-    <div class="row -B74F20">
+    <div class="row cor2">
         <div class="col m12">
-            <a href="#" data-target="slide-out" class="sidenav-trigger"><img src="img/baseline_menu_black_18dp.png"/></a>
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><img src="img/baseline_menu_black_18dp.png" /></a>
         </div>
     </div>
     <div class="row">
@@ -27,9 +28,9 @@
                         <li>compra 2: 300R$</li>
                         <li>total a pagar: 540R$</li>
                         </p>
-				    </ul>
+                    </ul>
                 </div>
-                <div class="card-action blue-grey">
+                <div class="card-action C2C2C2">
                     <p>
                         <label>
                             <input type="checkbox" checked="checked" />
@@ -50,20 +51,20 @@
                         <li>compra 3: 800R$</li>
                         <li>total a pagar: 1340R$ </li>
                         </p>
-				    </ul>
+                    </ul>
                 </div>
                 <div class="card-action blue-grey">
                     <p>
                         <label>
-                            <input type="checkbox" checked="checked"/>
+                            <input type="checkbox" class="2E2E2E" checked="checked" />
                             <span class="white-text">Pago</span>
                         </label>
                     </p>
                 </div>
             </div>
         </div>
-		
-		<div class="col s12 m3 ">
+
+        <div class="col s12 m3 ">
             <div class="card blue-grey darken-1">
                 <div class="card-content white-text">
                     <span class="card-title">Contas do carro</span>
@@ -73,12 +74,12 @@
                         <li>Manutenção: 500R$</li>
                         <li>total a pagar: 880R$ </li>
                         </p>
-					</ul>
+                    </ul>
                 </div>
                 <div class="card-action blue-grey">
                     <p>
                         <label>
-                            <input type="checkbox" checked="checked"/>
+                            <input type="checkbox" checked="checked" />
                             <span class="white-text">Pago</span>
                         </label>
                     </p>
@@ -96,7 +97,7 @@
                     <span class="card-title">Conta de agua</span>
                     <ul>
                         <li>Total a pagar: 0,50R$</li>
-                    </ul>    
+                    </ul>
                 </div>
                 <div class="card-action blue-grey">
                     <p>
@@ -116,7 +117,7 @@
                     <ul>
                         <li>Total a pagar: 100.000R$ </li>
                         </p>
-				    </ul>
+                    </ul>
                 </div>
                 <div class="card-action blue-grey">
                     <p>
@@ -128,15 +129,15 @@
                 </div>
             </div>
         </div>
-           
-		<div class="col s12 m3">
+
+        <div class="col s12 m3">
             <div class="card blue-grey darken-1">
                 <div class="card-content white-text">
                     <span class="card-title">Conta de luz</span>
                     <ul>
                         <li>total a pagar: 1000R$ </li>
                         </p>
-					</ul>
+                    </ul>
                 </div>
                 <div class="card-action blue-grey">
                     <p>
@@ -151,31 +152,40 @@
     </div>
 
     <ul id="slide-out" class="sidenav sidenav-fixed">
-        <div class="-FF914C">
-            <div class="brand-logo center "><img src="img/pay-per-click.png"/></div>
+        <div class="DDDDDD">
+            <div class="brand-logo center "><img src="img/pay-per-click.png" /></div>
             <div class="divider"></div>
         </div>
-       
-        <a class='dropdown-trigger btn' href='#' data-target='dropdown1'><i class="small material-icons">arrow_drop_down</i></a>
-         <ul id='dropdown1' class='dropdown-content'>
-                <li><h5>Meses</h5></li>
-                <li class="tab"><a href="#jan">jan</a></li>
-                <li class="tab"><a href="#fev">fev</a></li>
-                <li class="tab"><a href="#mar">mar</a></li>
-                <li class="tab"><a href="#abr">abr</a></li>
-                <li class="tab"><a href="#mai">mai</a></li>
-                <li class="tab"><a href="#jun">jun</a></li>
-                <li class="tab"><a href="#jul">jul</a></li>
-                <li class="tab"><a href="#ago">ago</a></li>
-                <li class="tab"><a href="#set">set</a></li>
-                <li class="tab"><a href="#out">out</a></li>
-                <li class="tab"><a href="#nov">nov</a></li>
-                <li class="tab"><a href="#dez">dez</a></li>
-         </ul>
+
+        <ul class="collapsible collapsible-accordion">
+            <li>
+                <div class="collapsible-header"><i class="material-icons">calendar_today</i>Calendário</div>
+                <div class="collapsible-body">
+                    <ul>
+                        <li class="tab"><a href="#jan">jan</a></li>
+                        <li class="tab"><a class="active" href="#fev">fev</a></li>
+                        <li class="tab"><a href="#mar">mar</a></li>
+                        <li class="tab"><a href="#abr">abr</a></li>
+                        <li class="tab"><a href="#mai">mai</a></li>
+                        <li class="tab"><a href="#jun">jun</a></li>
+                        <li class="tab"><a href="#jul">jul</a></li>
+                        <li class="tab"><a href="#ago">ago</a></li>
+                        <li class="tab"><a href="#set">set</a></li>
+                        <li class="tab"><a href="#out">out</a></li>
+                        <li class="tab"><a href="#nov">nov</a></li>
+                        <li class="tab"><a href="#dez">dez</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+
+
+
     </ul>
 
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
 
     <!-- materialize JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
@@ -183,4 +193,5 @@
     <!-- funções JS-->
     <script type="text/javascript" src="js/funcoes.js"></script>
 </body>
+
 </html>
